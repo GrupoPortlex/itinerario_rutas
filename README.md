@@ -8,3 +8,16 @@ Para explorar el contenido de este itinerario, puedes navegar a través de los d
 
 Cada ruta se presenta con una estructura jerárquica que te ayuda a entender su clasificación. Al seleccionar una, encontrarás una lista de palabras que pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.
 
+## Licencia
+
+Este proyecto es de licencia abierta para uso no comercial.
+
+Condiciones de uso:
+- Libre uso para fines académicos y de investigación
+- Debe citarse la herramienta en cualquier uso
+- No se permite uso comercial
+
+## Forma de cita
+
+Domínguez Vázquez, María José, Valcárcel Riveiro, Carlos & Arias-Arias, Iván (2025): Itinerario de rutas - ESMAS-ES+. Disponible en: https://grupoportlex.github.io/itinerario_rutas/. 
+
