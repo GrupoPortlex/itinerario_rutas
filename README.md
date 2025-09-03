@@ -13,4 +13,4 @@ Condiciones de uso:
 
 ## Forma de cita
 
-María José Domínguez Vázquez, Carlos Valcárcel Riveiro, Iván Arias-Arias, Carla Castro Lorenzo, Celia Fernández Vasco, M. Concepción Maldonado González, Elena Martín-Cancela, Rosa Martín Gascueña, Vítor Míguez Rego, Daniel Mora, Lola Mosquera Sánchez, Irene Renau y Sara Vázquez Rodríguez (2025): Taxonomía 2.0. ESMAS-ES+. Disponible en: https://grupoportlex.github.io/taxonomia_2.0/.
+Domínguez Vázquez, María José, Valcárcel Riveiro, Carlos & Arias-Arias, Iván (2025): Itinerario rutas - ESMAS-ES+. Disponible en: https://grupoportlex.github.io/itinerario_rutas/.
