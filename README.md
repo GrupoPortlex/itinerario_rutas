@@ -13,5 +13,5 @@ Condiciones de uso:
 
 ## Forma de cita
 
-Domínguez Vázquez, María José, Valcárcel Riveiro, Carlos & Arias-Arias, Iván (2025): Taxonomía inversa. Disponible en: https://grupoportlex.github.io/taxonomia_inversa/. 
+Domínguez Vázquez, María José, Valcárcel Riveiro, Carlos & Arias-Arias, Iván (2025): Taxonomía inversa. Disponible en: https://grupoportlex.github.io/itinerario_rutas/. 
 
