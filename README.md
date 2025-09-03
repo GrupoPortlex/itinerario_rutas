@@ -1,6 +1,6 @@
 ## Descripción
 
-Esta herramienta representa un prototipo que opera de abajo hacia arriba al identificar categorías a partir de ejemplos concretos. Su diseño flexible facilita la organización eficiente y la navegación intuitiva a través de sistemas de conocimiento complejos, optimizando el descubrimiento de información. Su función principal es facilitar una búsqueda y un descubrimiento de información más intuitivo, permitiendo al usuario encontrar la ubicación exacta de un elemento dentro de una estructura semántica.
+Itinerario de rutas - ESMAS-ES+ es una guía interactiva de un sistema de clasificación semántica. Este recurso organiza rutas ontológicas en distintos mundos conceptuales, abarcando una amplia variedad de temas. Cada ruta está acompañada de numerosos ejemplos léxicos para ilustrar su significado, convirtiéndolo en una herramienta completa para la exploración del léxico.
 
 ## Licencia
 
