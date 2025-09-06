@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itinerario de rutas completo - ESMAS-ES+</title>
@@ -335,32 +335,37 @@
         
         <div id="description-help" class="help-content">
             <h3>Descripción</h3>
-            <p>Itinerario de rutas - ESMAS-ES+ es una guía interactiva de un sistema de clasificación semántica.
-            Este recurso organiza rutas ontológicas en distintos mundos conceptuales, abarcando una amplia variedad de temas.
-            Cada ruta está acompañada de numerosos ejemplos léxicos para ilustrar su significado, convirtiéndolo en una herramienta completa para la exploración del léxico.</p>
+            <p>Itinerario de rutas - ESMAS-ES+ es una guía interactiva 
+de un sistema de clasificación semántica.
+            Este recurso organiza rutas ontológicas en distintos mundos 
+conceptuales, abarcando una amplia variedad de temas.
+            Cada ruta está acompañada de numerosos ejemplos léxicos para
+ ilustrar su significado, convirtiéndolo en una herramienta completa 
+para la exploración del léxico.</p>
         </div>
 
         <div id="usage-help" class="help-content">
             <h3>¿Cómo usar esta herramienta?</h3>
             <p>Para explorar el contenido de este itinerario, puedes navegar a través de los distintos mundos conceptuales, como, por ejemplo, <strong>"Animado"</strong> o <strong>"Material"</strong>.
             Si buscas una ruta específica, puedes utilizar el filtro de búsqueda para encontrarla fácilmente.</p>
-            <p>Cada ruta se presenta con una estructura jerárquica que te ayuda a entender su clasificación.
-            Al seleccionar una, encontrarás una lista de palabras que pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
+            <p>Cada ruta se presenta con una estructura jerárquica que 
+te ayuda a entender su clasificación.
+            Al seleccionar una, encontrarás una lista de palabras que 
+pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
         </div>
     </div>
 
     <div class="world-buttons-container" id="world-navigation">
         <h3>Selecciona un mundo ontológico para explorar</h3>
         <div class="world-buttons-grid" id="world-buttons">
-            </div>
+            <button class="world-button world-button-all">Todos los mundos</button><button class="world-button">Animado</button><button class="world-button">Material</button><button class="world-button">Intelectual</button><button class="world-button">Situaciones Dinámicas</button><button class="world-button">Situaciones Estáticas</button><button class="world-button">Lugar</button><button class="world-button">Unidad</button></div>
     </div>
 
     <div class="search-section">
         <div class="search-container">
-            <input 
-                type="text" class="search-box" id="searchInput" placeholder="Buscar palabras en ejemplos y rutas...">
+            <input type="text" class="search-box" id="searchInput" placeholder="Buscar palabras en ejemplos y rutas...">
             <select class="category-dropdown" id="categoryFilter">
-                <option value="">Todas las categorías</option>
+                <option value="" selected="selected">Todas las categorías</option>
                 <option value="Animado">Animado</option>
                 <option value="Material">Material</option>
                 <option value="Intelectual">Intelectual</option>
@@ -534,7 +539,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-4">Medicina</span>
             </div>
-            <div class="route-example">paciente, convaleciente, enfermo, herido, discapacitado</div>
+            <div class="route-example">paciente, convaleciente, enfermo, herido</div>
         </div>
 
         <div class="route-item">
@@ -547,7 +552,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-4">Educación</span>
             </div>
-            <div class="route-example">estudiante, profesora, alumno, maestro, aprendiz, becario</div>
+            <div class="route-example">estudiante, alumno, aprendiz, becario</div>
         </div>
 
         <div class="route-item">
@@ -640,7 +645,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-4">Educación</span>
             </div>
-            <div class="route-example">profesora, docente, catedrático, instructor, tutor</div>
+            <div class="route-example">profesora, docente, instructor</div>
         </div>
 
         <div class="route-item">
@@ -885,11 +890,9 @@
             <div class="route-path">
                 <span class="category-level-1">Animado</span>
                 <span class="arrow">→</span>
-                <span class="category-level-2">Humano</span>
+                  <span class="category-level-2">Criaturas de Ficción</span>
                 <span class="arrow">→</span>
-                <span class="category-level-3">Criaturas de Ficción</span>
-                <span class="arrow">→</span>
-                <span class="category-level-4">General</span>
+                <span class="category-level-3">General</span>
             </div>
             <div class="route-example">hadas, monstruo, duende, fantasma, vampiro, zombie</div>
         </div>
@@ -898,11 +901,9 @@
             <div class="route-path">
                 <span class="category-level-1">Animado</span>
                 <span class="arrow">→</span>
-                <span class="category-level-2">Humano</span>
+                    <span class="category-level-2">Criaturas de Ficción</span>
                 <span class="arrow">→</span>
-                <span class="category-level-3">Criaturas de Ficción</span>
-                <span class="arrow">→</span>
-                <span class="category-level-4">Nombre</span>
+                <span class="category-level-3">Nombre</span>
             </div>
             <div class="route-example">Mickey Mouse, Afrodita, Superman, Sherlock Holmes, Don Quijote</div>
         </div>
@@ -1598,7 +1599,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-5">Tipo</span>
                 <span class="arrow">→</span>
-                <span class="category-level-6">Médico</span>
+                <span class="category-level-6">Medicina</span>
             </div>
             <div class="route-example">hospital, sanatorio, clínica, consultorio, ambulatorio</div>
         </div>
@@ -1653,6 +1654,27 @@
             </div>
             <div class="route-example">casa, rascacielos, vivienda, hogar, domicilio</div>
         </div>
+
+
+ 
+        <div class="route-item">
+            <div class="route-path">
+                <span class="category-level-1">Material</span>
+                <span class="arrow">→</span>
+                <span class="category-level-2">Objeto</span>
+                <span class="arrow">→</span>
+                <span class="category-level-3">Construcción y urbanismo</span>
+                <span class="arrow">→</span>
+                <span class="category-level-4">Construcción</span>
+                <span class="arrow">→</span>
+                <span class="category-level-5">Tipo</span>
+                <span class="arrow">→</span>
+                <span class="category-level-6">Educación</span>
+            </div>
+            <div class="route-example">colegio, instituto, escuela, facultad</div>
+        </div>
+
+
 
         <div class="route-item">
             <div class="route-path">
@@ -2325,7 +2347,7 @@
     </div>
 
 
-    </div>
+    
 
     <!-- SITUACIONES DINÁMICAS -->
     <div class="mundo-section" data-category="Situaciones Dinámicas">
@@ -2753,7 +2775,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-4">Gusto</span>
             </div>
-            <div class="route-example">dulce, salado, amargo, ácido, picante, insípido</div>
+            <div class="route-example">sabor, salado, amargo, ácido, picante </div>
         </div>
 
         <div class="route-item">
@@ -3045,7 +3067,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-3">General</span>
             </div>
-            <div class="route-example">csentimiento, emoción, estado de ánimo, humor, sensación</div>
+            <div class="route-example">dolor, hambre, mareo, vitalidad </div>
         </div>
 
         <div class="route-item">
@@ -3114,8 +3136,9 @@
                 <span class="arrow">→</span>
                 <span class="category-level-2">Paisaje</span>
                 <span class="arrow">→</span>
-                <span class="category-level-3">General</span>
+                <span class="category-level-3">Acuático</span>
                 <span class="arrow">→</span>
+                <span class="category-level-4">General</span>
              </div>
             <div class="route-example">mar, río, lago, océano, bahía, golfo</div>
         </div>
@@ -3202,7 +3225,7 @@
                 <span class="arrow">→</span>
                 <span class="category-level-3">Tipo</span>
                 <span class="arrow">→</span>
-                <span class="category-level-4">Médico</span>
+                <span class="category-level-4">Medicina</span>
             </div>
             <div class="route-example">hospital, clínica, ambulatorio, sanatorio, consultorio</div>
         </div>
@@ -3458,7 +3481,7 @@
             <div class="route-path">
                 <span class="category-level-1">Lugar</span>
                 <span class="arrow">→</span>
-                <span class="category-level-2">Espacios virtuales (infraestructura)</span>
+                <span class="category-level-2">Espacios virtuales </span>
 <span class="arrow">→</span>
 <span class="category-level-3">Infraestructura</span>
             </div>
@@ -3601,6 +3624,29 @@
             <div class="route-example">20%, 90%, 50%, 25%, 75%, 100%</div>
         </div>
 
+     <div class="route-item">
+            <div class="route-path">
+                <span class="category-level-1">Unidad</span>
+                <span class="arrow">→</span>
+                <span class="category-level-2">Cantidad</span>
+                <span class="arrow">→</span>
+                <span class="category-level-3">Relacional</span>
+            </div>
+            <div class="route-example">mitad, resto</div>
+        </div>
+
+
+     <div class="route-item">
+            <div class="route-path">
+                <span class="category-level-1">Unidad</span>
+                <span class="arrow">→</span>
+                <span class="category-level-2">Cantidad</span>
+                <span class="arrow">→</span>
+                <span class="category-level-3">Numérica</span>
+            </div>
+            <div class="route-example">millón, trillón, resto</div>
+        </div>
+
         <div class="route-item">
             <div class="route-path">
                 <span class="category-level-1">Unidad</span>
@@ -3628,6 +3674,7 @@
                 <span class="category-level-1">Unidad</span>
                 <span class="arrow">→</span>
                 <span class="category-level-2">Medida</span>
+ 	 <span class="arrow">→</span>
                      <span class="category-level-3">Espacio (lineal)</span>
                 <span class="arrow">→</span>
                 <span class="category-level-4">Superficie</span>
@@ -3654,7 +3701,7 @@
         </div>
 
         </div>
-    </div>
+    
 <script>
         document.addEventListener('DOMContentLoaded', () => {
             const mundoSections = document.querySelectorAll('.mundo-section');
@@ -3769,5 +3816,5 @@
             showWorld('all'); // Muestra todos los mundos por defecto
         });
     </script>
-</body>
-</html>
+
+</body></html>
