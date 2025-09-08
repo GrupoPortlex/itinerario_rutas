@@ -3705,7 +3705,6 @@ pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
 <script>
         document.addEventListener('DOMContentLoaded', () => {
             const mundoSections = document.querySelectorAll('.mundo-section');
-            const worldButtonsContainer = document.getElementById('world-buttons');
             const searchInput = document.getElementById('searchInput');
             const categoryFilter = document.getElementById('categoryFilter');
             const searchStats = document.getElementById('searchStats');
@@ -3728,32 +3727,6 @@ pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
                 searchInput.value = '';
                 categoryFilter.value = '';
                 searchStats.textContent = 'Selecciona un mundo ontológico para comenzar la exploración';
-            }
-
-            // Crea los botones de los mundos dinámicamente
-            function createWorldButtons() {
-                const mundos = Array.from(mundoSections).map(section => section.dataset.category);
-                
-                // Botón "Todos los mundos"
-                const allButton = document.createElement('button');
-                allButton.textContent = 'Todos los mundos';
-                allButton.className = 'world-button world-button-all';
-                allButton.addEventListener('click', showAllWorlds);
-                worldButtonsContainer.appendChild(allButton);
-
-                // Botones para cada mundo
-                mundos.forEach(mundo => {
-                    const button = document.createElement('button');
-                    button.textContent = mundo;
-                    button.className = 'world-button';
-                    button.addEventListener('click', () => {
-                        showWorld(mundo);
-                        document.querySelectorAll('.route-item').forEach(route => route.classList.remove('hidden'));
-                        searchInput.value = '';
-                        categoryFilter.value = mundo;
-                    });
-                    worldButtonsContainer.appendChild(button);
-                });
             }
 
             // Lógica para el filtro de búsqueda
@@ -3802,9 +3775,24 @@ pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
                 searchStats.textContent = `Se encontraron ${foundItemsCount} resultados.`;
             }
 
-            // Event listeners
+            // Event listeners para búsqueda
             searchInput.addEventListener('input', filterItems);
             categoryFilter.addEventListener('change', filterItems);
+            
+            // Event listeners para botones de mundos (que ya están en el HTML)
+            document.querySelectorAll('.world-button').forEach(button => {
+                button.addEventListener('click', () => {
+                    if (button.textContent === 'Todos los mundos') {
+                        showAllWorlds();
+                    } else {
+                        const mundo = button.textContent;
+                        showWorld(mundo);
+                        document.querySelectorAll('.route-item').forEach(route => route.classList.remove('hidden'));
+                        searchInput.value = '';
+                        categoryFilter.value = mundo;
+                    }
+                });
+            });
             
             // Función para mostrar/ocultar secciones de ayuda
             window.toggleHelp = function(id) {
@@ -3812,7 +3800,6 @@ pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
                 element.classList.toggle('active');
             }
 
-            createWorldButtons();
             showWorld('all'); // Muestra todos los mundos por defecto
         });
     </script>
