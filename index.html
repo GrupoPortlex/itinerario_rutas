@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="es"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itinerario de rutas completo - ESMAS-ES+</title>
@@ -335,32 +335,37 @@
         
         <div id="description-help" class="help-content">
             <h3>Descripción</h3>
-            <p>Itinerario de rutas - ESMAS-ES+ es una guía interactiva de un sistema de clasificación semántica.
-            Este recurso organiza rutas ontológicas en distintos mundos conceptuales, abarcando una amplia variedad de temas.
-            Cada ruta está acompañada de numerosos ejemplos léxicos para ilustrar su significado, convirtiéndolo en una herramienta completa para la exploración del léxico.</p>
+            <p>Itinerario de rutas - ESMAS-ES+ es una guía interactiva 
+de un sistema de clasificación semántica.
+            Este recurso organiza rutas ontológicas en distintos mundos 
+conceptuales, abarcando una amplia variedad de temas.
+            Cada ruta está acompañada de numerosos ejemplos léxicos para
+ ilustrar su significado, convirtiéndolo en una herramienta completa 
+para la exploración del léxico.</p>
         </div>
 
         <div id="usage-help" class="help-content">
             <h3>¿Cómo usar esta herramienta?</h3>
             <p>Para explorar el contenido de este itinerario, puedes navegar a través de los distintos mundos conceptuales, como, por ejemplo, <strong>"Animado"</strong> o <strong>"Material"</strong>.
             Si buscas una ruta específica, puedes utilizar el filtro de búsqueda para encontrarla fácilmente.</p>
-            <p>Cada ruta se presenta con una estructura jerárquica que te ayuda a entender su clasificación.
-            Al seleccionar una, encontrarás una lista de palabras que pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
+            <p>Cada ruta se presenta con una estructura jerárquica que 
+te ayuda a entender su clasificación.
+            Al seleccionar una, encontrarás una lista de palabras que 
+pertenecen a esa categoría, sirviendo como ejemplos ilustrativos.</p>
         </div>
     </div>
 
     <div class="world-buttons-container" id="world-navigation">
         <h3>Selecciona un mundo ontológico para explorar</h3>
         <div class="world-buttons-grid" id="world-buttons">
-            </div>
+            <button class="world-button world-button-all">Todos los mundos</button><button class="world-button">Animado</button><button class="world-button">Material</button><button class="world-button">Intelectual</button><button class="world-button">Situaciones Dinámicas</button><button class="world-button">Situaciones Estáticas</button><button class="world-button">Lugar</button><button class="world-button">Unidad</button></div>
     </div>
 
     <div class="search-section">
         <div class="search-container">
-            <input 
-                type="text" class="search-box" id="searchInput" placeholder="Buscar palabras en ejemplos y rutas...">
+            <input type="text" class="search-box" id="searchInput" placeholder="Buscar palabras en ejemplos y rutas...">
             <select class="category-dropdown" id="categoryFilter">
-                <option value="">Todas las categorías</option>
+                <option value="" selected="selected">Todas las categorías</option>
                 <option value="Animado">Animado</option>
                 <option value="Material">Material</option>
                 <option value="Intelectual">Intelectual</option>
@@ -2342,7 +2347,7 @@
     </div>
 
 
-    </div>
+    
 
     <!-- SITUACIONES DINÁMICAS -->
     <div class="mundo-section" data-category="Situaciones Dinámicas">
@@ -3696,7 +3701,7 @@
         </div>
 
         </div>
-    </div>
+    
 <script>
         document.addEventListener('DOMContentLoaded', () => {
             const mundoSections = document.querySelectorAll('.mundo-section');
@@ -3811,5 +3816,5 @@
             showWorld('all'); // Muestra todos los mundos por defecto
         });
     </script>
-</body>
-</html>
+
+</body></html>
